@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Costly Flat in Modern Valley</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            overflow: hidden;
+            animation: gradientAnimation 15s infinite alternate;
+            background: linear-gradient(45deg, #3498db, #e74c3c, #2ecc71, #f39c12);
+            background-size: 400% 400%;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .flat-info {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .member {
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .about {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flat-info">
+        <h1>My Costly Flat in Modern Valley</h1>
+
+        <div class="member">
+            <div class="name">Arpit</div>
+            <div class="about">Arpit is a successful entrepreneur who loves to travel and try out new cuisines.</div>
+        </div>
+
+        <div class="member">
+            <div class="name">deepak bhai</div>
+            <div class="about">deepak bhai is an accomplished artist known for her vibrant and imaginative paintings.</div>
+        </div>
+
+        <div class="member">
+            <div class="name">privyanshu ji</div>
+            <div class="about">privyanshu jiis a tech enthusiast who enjoys building robots and experimenting with AI.</div>
+        </div>
+
+        <div class="member">
+            <div class="name">kunal</div>
+            <div class="about">kunal is a passionate environmentalist working towards a sustainable future.</div>
+        </div>
+    </div>
+</body>
+
+</html>
